@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const db = require("../models/db");
 
+//nilai tambah
 router.get("/", (req, res) => {
   const {
     prodi,
